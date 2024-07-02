@@ -12,7 +12,7 @@ const ContactForm = () => {
 
    const handleSendMessage = async (e) => {
      e.preventDefault();
-     await axios.post("http://localhost:4000/message/send",
+     await axios.post("https://mern-event-project.onrender.com/message/send",
       {
         name,
         email,
