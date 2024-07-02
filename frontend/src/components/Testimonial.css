@@ -1,0 +1,74 @@
+.testimonial-container{
+    margin: 4rem 6rem;
+}
+.testimonial-container h1{
+    font-size: 3rem;
+    color: #2a2a2a;
+} 
+.card{
+    width: 340px;
+    height: 320px;
+    padding: 1rem 1rem;
+    align-items: center;
+    background-color: #c2c6bf;
+    margin: 3rem 0;
+}
+.card img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50px;
+}
+.card p{
+    font-size: 14px;
+ 
+}
+.card .who{
+   text-align: center;  
+}
+
+@media screen and (max-width: 850px) {
+    
+    .testimonial-container{
+        margin: 2rem 0.8rem;
+    }
+    .testimonial-container .heading h1{
+       font-size: 28px;
+    }
+    .testimonial-slider .react-multiple-carousel__arrow {
+        background-color: rgba(0, 0, 0, 0.2); 
+        color: #fff; 
+        font-size: 12px; 
+        margin: 0 -30px;
+      }
+      .card{
+        width: 280px;
+        height: 380px;
+        padding: 1rem 1rem;
+        align-items: center;
+        background-color: #c2c6bf;
+        margin: 3rem 0;
+    }
+    .card p{
+       padding: 0.6rem 0.5rem;
+    }
+    .testimonial-slider .react-multiple-carousel__arrow {
+      background-color: rgba(0, 0, 0, 0.2); 
+      color: #fff; 
+      font-size: 12px; 
+      margin: 0 -38px;
+    }
+      .testimonial-slider .react-multiple-carousel__arrow:hover {
+        background-color: rgba(0, 0, 0, 0.8); 
+      }
+}
+
+.testimonial-slider .react-multiple-carousel__arrow {
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: #fff; 
+    font-size: 12px; 
+    margin: 0 -38px;
+  }
+  
+  .testimonial-slider .react-multiple-carousel__arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
