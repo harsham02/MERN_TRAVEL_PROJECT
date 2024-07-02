@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended : true}));
 
 app.use(cors({
-    origin: 'https://mern-travel-project.vercel.app',  
+    origin:  process.env.FRONTEND_URL,  
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
     credentials: true
